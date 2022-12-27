@@ -7,17 +7,12 @@
 }
 
 .main{
-    /* background: url('1.jpg') ; */
-    /* background-image: linear-gradient(rgba(0, 0, 0, 0.6) rgba(0, 0, 0, 0.6)) ; */
-    /* background-image: linear-gradient((red, yellow), url('1.jpg')); */
-    background-color:black;
-
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)),url(1.jpg);
     background-repeat: no-repeat;
     color: white;
-    /* background-size: 1519px 725px ; */
+    background-size: 1519px 725px ;
     background-size: cover;
-    height: 725px;
-     
+    height: 725px;  
 }
 nav{
 
