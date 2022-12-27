@@ -1,0 +1,190 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Poppins:wght@600&display=swap');
+*{
+
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+nav{
+
+    display: flex;
+    color: white;
+    background-color: #3A75B0;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+nav .img img{
+
+    width: 120px;
+    height: 80px;
+   
+}
+nav .menu{
+
+   margin-left: -701px;
+   margin-top: 40px;
+   margin-bottom: 20px;
+}
+nav a{
+
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    font-size: 26px;
+    transition: color 0.35s;
+}
+nav a:hover{
+
+    color: #E76F00;
+}
+nav .input{
+
+    width: 210;
+    background-color: white;
+    height: 35px;
+    margin-top: 35px;
+    margin-right: 30px;
+    
+    
+
+}
+
+nav input{
+    width: 150px;
+    height: 25px;
+    margin-top: 8px;
+    border: none;
+    transition: width 0.35s;
+}
+nav .input input:focus{
+
+    border: none;
+    outline: none;
+    width: 270px;
+}
+nav .input i{
+
+    color: black;
+    padding-left: 5px;
+    margin-top: 8px;
+}
+
+.mid{
+
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin-top: 48px;
+    margin-left: 96px;
+    
+}
+.mid .text{
+
+    margin-top: 52px;
+    margin-left: 96px;
+}
+.mid h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+
+    color: #7A736E;
+}
+.mid button{
+  margin-top: 36px;
+  margin-left: 200px;
+  width: 224px;
+  height: 38px;
+  color: white;
+  background-color: #157347;
+  border: none;
+  border-radius: 4px;
+  font-size: 15px;
+}
+
+.mid .inside{
+
+    display: flex;
+    margin-top: 60px;
+    margin-left: 210px;
+    
+
+}
+.mid .inside p{
+
+    margin-left: 10px;
+    margin-right: 10px ;
+}
+.mid .inside a{
+
+    text-decoration: none;
+    color: #006B8F;
+}
+.mid img{
+
+    margin-right: 304px;
+}
+.end{
+
+    display: flex;
+    margin-top: 53px;
+    background-color: #7A736E;
+    color: white;
+    height: 105px;
+    justify-content: center;
+    justify-content: space-around;
+    text-align: center;
+    margin-bottom: 0%;
+}
+.end .txt{
+
+    text-align: justify;
+    margin-top: 30px;
+    margin-left: -80px;
+    font-size: 18px;
+    
+}
+.end .button{
+
+    line-height: 105px;
+    margin-right: 240px;
+ 
+
+}
+.end .button button{
+
+    height: 35px;
+    width: 190px;
+    border-radius: 3px;
+    border: none;
+    color: white;
+    background-color: #7A736E;
+    border: 1px solid white;
+}
+
+
+
+.footer .bottom{
+    display: flex;
+    justify-content: center;
+    /*  */
+    margin-top: 50px;
+   
+}
+.footer .bottom a{
+
+    color: #5284A1;
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 11.2px;
+}
+.end i{
+
+    margin-top: 50px;
+    margin-left: 270px;
+}
+
+
+ 

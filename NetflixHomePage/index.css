@@ -1,0 +1,203 @@
+
+*{
+
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.main{
+    /* background: url('1.jpg') ; */
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.6) rgba(0, 0, 0, 0.6)) ; */
+    /* background-image: linear-gradient((red, yellow), url('1.jpg')); */
+    background-color:black;
+
+    background-repeat: no-repeat;
+    color: white;
+    /* background-size: 1519px 725px ; */
+    background-size: cover;
+    height: 725px;
+     
+}
+nav{
+
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+nav .img img{
+
+    width: 167px;
+   height: 45px;
+    margin-top: 28px;
+    margin-right: 879px;
+  
+}
+
+.btn .eng{
+    margin-top: 28px;
+    margin-inline: 32px;
+    width: 85px;
+    height: 33px ;
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    border: 1px solid white;
+    border-radius: 3px;
+
+}
+.btn .sign{
+    margin-top: 28px;
+    width: 85px;
+    height: 33px ;
+    background-color: #E50914;
+    color: white;
+    border-radius: 3px;
+    font-size: 16px;
+    border: none;
+
+}
+.mid{
+
+    text-align: center;
+     margin-top: 170px; 
+    
+}
+.mid h1{
+
+    font-size: 64px;
+}
+.mid h3{
+    margin-top: 25px;
+    font-size: 26px;
+}
+.mid p{
+    margin-top: 25px;
+
+    font-size: 19px;
+}
+.input{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+.input input{
+
+    width: 400px;
+    height: 58px;
+    border: none;
+    font-size: 22px;
+}
+.input button{
+
+    width: 200px;
+    height: 60px;
+    background-color: red;
+    color: white;
+    border: none;
+    font-size: 26px;
+
+}
+.first{
+
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    padding: 45px;
+    color: white;
+    border-top: 8px solid #222222;
+   
+}
+.first h1{
+    font-size: 50px;
+    
+}
+.first p{
+    font-size: 26px;
+}
+.text{
+
+   margin-top: 160px;
+}
+.first img{
+
+   width: 37%;
+   
+}
+.buttons{
+    border-top: 8px solid #222222;
+    background-color: black;
+    background-size: cover;
+    color: white;
+}
+.buttons h1{
+
+    text-align: center;
+    margin-top: 33px;
+    font-size: 50px;
+}
+.buttons button{
+    margin-top: 3px;
+    width: 800px;
+    height: 80px;
+    background-color: #303030;
+    color: white;
+    font-size: 26px;
+    margin-left: 25%;
+    text-align: left;
+    padding: 20px;
+    
+}
+.footer {
+    background-color: black;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+   
+    border-top: 8px solid #222222;
+    padding: 44px;
+    
+}
+
+.list a{
+    text-decoration: none;
+    color: gray;
+    font-size: 10px;
+
+}
+
+
+.end .input{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    margin-left: 30px;
+}
+.end .input input{
+  
+    width: 400px;
+    height: 58px;
+    border: none;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.end .input button{
+    margin-top: 0px;
+    width: 200px;
+    height: 60px;
+    background-color: red;
+    color: white;
+    border: none;
+    font-size: 26px;
+    margin-left: 0px;
+
+}
+.end p{
+
+    margin-left: 500px;
+    margin-top: 50px;
+    font-size: 19px;
+}
+
+/*linear-gradient(rgba(0, 0, 0, 0.6) rgba(0, 0, 0, 0.6)),*/
